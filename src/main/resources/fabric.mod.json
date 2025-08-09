@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "shardbound",
+	"version": "${version}",
+	"name": "Shardbound",
+	"description": "This is made by JakeRulz31 for The Faction SMP",
+	"authors": [
+		"JakeRulz31"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/shardbound/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jakerulz31.shardbound.Shardbound"
+		],
+		"fabric-datagen": [
+			"net.jakerulz31.shardbound.ShardboundDataGenerator"
+		],
+        "Client": [
+          "net.jakerulz31.ShardboundClient"
+        ]
+	},
+	"mixins": [
+		"shardbound.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
