@@ -21,8 +21,8 @@
 		"fabric-datagen": [
 			"net.jakerulz31.shardbound.ShardboundDataGenerator"
 		],
-        "Client": [
-          "net.jakerulz31.ShardboundClient"
+        "client": [
+            "net.jakerulz31.shardbound.ShardboundClient"
         ]
 	},
 	"mixins": [

@@ -11,6 +11,11 @@ public class Shardbound implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        //MinecraftClient.getInstance().setScreen(new Screen(new CustomInventoryGUI()));
+        LOGGER.info("Got yea");
+
+        System.err.println("Testing output on stderr!");
+
 
 	}
 }

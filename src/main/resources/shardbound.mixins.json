@@ -3,8 +3,7 @@
 	"package": "net.jakerulz31.shardbound.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin",
-        "PlayerScreenHandlerMixin"
+		"ExampleMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
