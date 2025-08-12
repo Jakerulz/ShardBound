@@ -2,20 +2,11 @@ package net.jakerulz31.shardbound;
 
 import net.fabricmc.api.ModInitializer;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 public class Shardbound implements ModInitializer {
-	public static final String MOD_ID = "shardbound";
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-
-	@Override
-	public void onInitialize() {
-        //MinecraftClient.getInstance().setScreen(new Screen(new CustomInventoryGUI()));
-        LOGGER.info("Got yea");
-
-        System.err.println("Testing output on stderr!");
 
 
-	}
+    @Override
+    public void onInitialize() {
+        // Registration logic here
+    }
 }
